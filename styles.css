@@ -1,0 +1,99 @@
+body {
+    background-color: #f1f1f1;
+    color: purple;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: black;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info p {
+    color: blue;
+    margin-bottom: 5px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container h3 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+}
+
+.card {
+    padding: 15px, 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.black-color {
+    color: black;   
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    text-align: left;
+}
+.table td {
+    padding-bottom: 10px;
+}
